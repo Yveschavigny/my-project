@@ -1,6 +1,32 @@
 /* Colors and fonts */
 
 body {
-background: orange
-color: yellow
-  }  
+    background: rgb(230, 230, 230);
+    color: rgb(38, 38, 38);
+    font-family: helvetica;
+    font-size: 16px;
+}
+
+h1, h2 {
+    font-family: courier;
+}
+
+h1 {
+	color: blue;
+	font-size: 32px;
+}
+
+h2 {
+	color: rgb(100, 100, 100);
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+a {
+text-decoration: none;
+color: blue;
+}
+
+a:hover {
+color: orange
+}
